@@ -1,0 +1,286 @@
+@font-face {
+    font-family: 'regular-400';
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'SemiBold-700';
+    src: url(../fonts/Poppins-SemiBold.ttf);
+}
+@font-face {
+    font-family: 'Inter-700';
+    src: url(../fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    width: 1256px;
+    height: 1161px;
+    background: #FFFFFF;
+    margin: 0 auto;
+}
+
+.header {
+    width: 1100px;
+    height: 69.12px;
+    /* border: 2px solid black; */
+    position: relative;
+    top: 25px;
+}
+
+.menu {
+    width: 114px;
+    height: 56px;
+    background: #E7E9EB;
+    border-radius: 50px;
+    position: absolute;
+    left: 0px;
+}
+
+.fa-bars {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.Menu_text {
+    position: absolute;
+    left: 50px;
+    top: 20px;
+}
+
+.input {
+    width: 200px;
+    height: 56px;
+    background: #E7E9EB;
+    border-radius: 50px;
+    border: none;
+    position: absolute;
+    left: 150px;
+}
+
+.fa-magnifying-glass {
+    position: absolute;
+    left: 170px;
+    top: 20px;
+    z-index: 1;
+}
+
+.Search {
+    position: absolute;
+    top: 20px;
+    left: 230px;
+}
+
+.logo {
+    margin-left: 500px;
+}
+
+.img_card {
+    width: 145.99px;
+    height: 28px;
+    gap: 20px;
+    position: relative;
+    left: 250px;
+    top: -50px;
+}
+
+.nav_img {
+    position: absolute;
+    top: -10px;
+}
+
+.select2 {
+    width: 69px;
+    height: 30px;
+    background: #E7E9EB;
+    border-radius: 50px;
+    border: none;
+    position: absolute;
+    left: 1000px;
+    top: 20px;
+    cursor: pointer;
+}
+
+.select2:nth-last-child(2) {
+    position: absolute;
+    left: 900px;
+    top: 20px;
+}
+
+.text_title {
+    width: 429px;
+    height: 156px;
+    font-size: 52px;
+    line-height: 78px;
+    letter-spacing: 0em;
+    text-align: left;
+    font-family: 'regular-400';
+    color: #000000;
+    margin-left: -250px;
+}
+
+.span {
+    font-size: 52px;
+    line-height: 78px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+    font-family: 'SemiBold-700';
+}
+
+.small_text {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #11293B;
+    margin-left: -250px;
+    margin-top: 20px;
+}
+
+.one_btn {
+    width: 155px;
+    height: 60px;
+    background: #000000;
+    box-shadow: 0px 15px 30px 0px #104C4A40;
+    color: #D0AD37;
+    border: none;
+    border-radius: 50px;
+    margin-left: -250px;
+    margin-top: 30px;
+}
+
+.fa-arrow-right {
+    position: absolute;
+    left: -130px;
+    top: 260px;
+}
+
+.main_img {
+    margin-top: -315px;
+    margin-left: 100px;
+}
+
+.section {
+    width: 1100px;
+    height: 481px;
+    /* background-color: aqua; */
+    margin-top: 100px;
+    display: flex;
+    position: relative;
+}
+
+.cards {
+    width: 245px;
+    height: 481px;
+    /* border: 1px solid black; */
+}
+
+.crasofka1 {
+    width: 354px;
+    height: 312px;
+
+}
+
+.crasofka2 {
+    width: 322px;
+    height: 265px;
+
+}
+
+.crasofka3 {
+    width: 447px;
+    height: 448px;
+
+}
+.section_text1{
+font-size: 18px;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+color: #000000;
+font-family: 'Inter-700';
+margin-top: 20px;
+}
+.span1{
+    color: #FD4E61;
+font-size: 19px;
+}
+.section_s1{
+    color: #11293B;
+font-size: 19px;
+margin-left: 20px;
+}
+.section_text2{
+    margin-top: 10px;
+}
+.btn1{
+    width: 71px;
+height: 25px;
+background: #458EF642;
+border-radius: 50px;
+border: none;
+color: #458EF6;
+cursor: pointer;
+margin-top: 20px;
+}
+.img1{
+    margin-left: 20px;
+}
+.btn2{
+    width: 245px;
+height: 60px;
+background: #E7E9EB;
+border: none;
+border-radius: 50px;
+margin-top: 13px;
+transition: .5s;
+}
+.btn2:hover{
+    transition: .5s;
+    background: none;
+    border: 2px solid #E7E9EB;
+    box-shadow: 0px 0px 5px 5px #E7E9EB;
+    cursor: pointer;
+}
+.crasofka1{
+    width: 354px;
+height: 312px;
+position: absolute;
+top: 0px;
+left: -50px;
+z-index: 1;
+}
+.crasofka2{
+    width: 322px;
+height: 265px;
+position: absolute;
+top: 0px;
+left: 250px;
+z-index: 1;
+}
+.crasofka3{
+    /* width: 447px;
+height: 448px;
+position: absolute;
+top: -1000px;
+z-index: 1; */
+}
+.crasofka3{
+    /* width: 336px;
+height: 284px;
+position: absolute;
+top: -200px;
+left: 650px;
+z-index: 1; */
+}
